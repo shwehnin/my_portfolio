@@ -17,7 +17,7 @@ const ContactPage = () => {
             Let's Work Together
           </h2>
           <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-            Ready to bring your mobile app idea to life? Let's connect and
+            Ready to bring your app idea to life? Let's connect and
             discuss your project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

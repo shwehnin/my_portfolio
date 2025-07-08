@@ -40,7 +40,7 @@ const CertificateCard = () => {
       link: "#",
     },
     {
-      id: 4,
+      id: 5,
       name: "PHP Web Development",
       issuer: "Myanmar IT Consulting",
       date: "2017",

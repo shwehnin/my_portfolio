@@ -1,16 +1,21 @@
-import React from 'react'
+import React from "react";
 
 interface ProjectCardProps {
-    icon: string,
-    title: string, 
-    description: string,
-    technologies: string[],
+  image: string;
+  title: string;
+  description: string;
+  technologies: string[];
 }
-const ProjectCard : React.FC<ProjectCardProps> = ({ icon, title, description, technologies }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  image,
+  title,
+  description,
+  technologies,
+}) => {
   return (
     <div className="project-card group">
-      <div className="h-48 bg-gradient-to-br from-slate-900 to-slate-800 border-b border-cyan-500/20 flex items-center justify-center text-4xl text-cyan-400">
-        {icon}
+      <div className="h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-900 to-slate-800 border-b border-cyan-500/20 flex items-center justify-center text-4xl text-cyan-400">
+        <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-3 text-white">{title}</h3>
@@ -24,7 +29,7 @@ const ProjectCard : React.FC<ProjectCardProps> = ({ icon, title, description, te
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;
