@@ -1,0 +1,8 @@
+name = "portfolio"
+compatibility_date = "2025-07-08"
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = ".vercel/output/static"
