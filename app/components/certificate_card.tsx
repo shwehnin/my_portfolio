@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Calendar, Award, ExternalLink, Download } from "lucide-react";
+import { Calendar, Award } from "lucide-react";
 
 const CertificateCard = () => {
   const certificates = [

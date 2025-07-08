@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { MapPin, Calendar, Briefcase, Star } from "lucide-react";
+import { MapPin, Calendar, Briefcase } from "lucide-react";
 
 const ExperienceCard = () => {
   const experiences = [

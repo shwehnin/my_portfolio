@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface ProjectCardProps {
@@ -15,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <div className="project-card group">
       <div className="h-64 md:h-80 lg:h-96 bg-gradient-to-br from-slate-900 to-slate-800 border-b border-cyan-500/20 flex items-center justify-center text-4xl text-cyan-400">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <Image src={image} alt={title} width={800} height={400} className="w-full h-full object-cover"/>
       </div>
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-3 text-white">{title}</h3>
