@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Calendar, Award, ExternalLink, Download } from "lucide-react"; // ✅ Import necessary icons
+import { Calendar, Award, ExternalLink, Download } from "lucide-react";
 
 const CertificateCard = () => {
   const certificates = [
@@ -79,7 +79,7 @@ const CertificateCard = () => {
             {certificate.description}
           </p>
 
-          <div className="flex items-center justify-between">
+          {/* <div className="flex items-center justify-between">
             <a
               href={certificate.link}
               target="_blank"
@@ -93,7 +93,7 @@ const CertificateCard = () => {
               <Download className="w-4 h-4 mr-1" />
               Download
             </button>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>

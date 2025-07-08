@@ -1,5 +1,12 @@
 import React from "react";
 import ContactLink from "../components/contact_link";
+import {
+  FaEnvelope,
+  FaLinkedin,
+  FaGithub,
+  FaLine,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const ContactPage = () => {
   return (
@@ -15,12 +22,30 @@ const ContactPage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <ContactLink
-              href="mailto:your.email@example.com"
-              icon="📧"
+              href="mailto:shwehnindev@gmail.com"
+              icon={<FaEnvelope />}
               text="Email"
             />
-            <ContactLink href="#" icon="💼" text="LinkedIn" />
-            <ContactLink href="#" icon="🐙" text="GitHub" />
+            <ContactLink
+              href="https://www.linkedin.com/in/hnin-hnin-wai-97447a185/"
+              icon={<FaLinkedin />}
+              text="LinkedIn"
+            />
+            <ContactLink
+              href="https://github.com/shwehnin/"
+              icon={<FaGithub />}
+              text="GitHub"
+            />
+            <ContactLink
+              href="https://line.me/ti/p/shwehnindev"
+              icon={<FaLine />}
+              text="LINE"
+            />
+            <ContactLink
+              href="https://wa.me/+66618631476"
+              icon={<FaWhatsapp />}
+              text="WhatsApp"
+            />
           </div>
         </div>
       </section>

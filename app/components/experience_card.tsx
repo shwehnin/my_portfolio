@@ -1,30 +1,30 @@
 "use client";
 import React from "react";
-import { MapPin, Calendar, Briefcase, Star } from "lucide-react"; // ✅ Make sure these are installed
+import { MapPin, Calendar, Briefcase, Star } from "lucide-react";
 
 const ExperienceCard = () => {
   const experiences = [
     {
       id: 1,
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
-      location: "San Francisco, CA",
-      duration: "2022 - Present",
+      title: "Mobile Developer",
+      company: "UMG Myanmar",
+      location: "Yangon Myanmar",
+      duration: "Oct 2023 - Apr 2024",
       description:
-        "Led development of scalable web applications using React, Node.js, and cloud technologies. Managed a team of 5 developers and increased application performance by 40%.",
-      technologies: ["React", "Node.js", "AWS", "MongoDB", "TypeScript"],
+        "Developed mobile applications using Dart (Flutter). Managed a team of 5 developers and increased application performance by 40%.",
+      technologies: ["Python(Odoo)", "Dart", "Flutter"],
       achievements: [
         "Increased application performance by 40%",
         "Led team of 5 developers",
-        "Implemented CI/CD pipelines",
+        "Publish app on play store",
       ],
     },
     {
       id: 2,
-      title: "Frontend Developer",
-      company: "Digital Solutions Ltd.",
-      location: "New York, NY",
-      duration: "2020 - 2022",
+      title: "Application Developer",
+      company: "FreshMoe Myanmar",
+      location: "Yangon Myanmar",
+      duration: "Oct 2022 - Sep 2023",
       description:
         "Developed responsive web applications and collaborated with design teams to implement pixel-perfect UI components.",
       technologies: ["React", "Vue.js", "Tailwind CSS", "JavaScript"],
@@ -36,10 +36,40 @@ const ExperienceCard = () => {
     },
     {
       id: 3,
-      title: "Junior Web Developer",
-      company: "StartUp Hub",
-      location: "Austin, TX",
-      duration: "2019 - 2020",
+      title: "Application Engineer",
+      company: "Teclink Myanmar",
+      location: "Yangon Myanmar",
+      duration: "Sep 2020 - Aug 2022",
+      description:
+        "Built dynamic websites and gained experience in modern web development practices.",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+      achievements: [
+        "Built 10+ websites from scratch",
+        "Learned modern development practices",
+        "Contributed to open source projects",
+      ],
+    },
+    {
+      id: 4,
+      title: "Web Developer",
+      company: "Vretailer Pte Ltd",
+      location: "Yangon Myanmar",
+      duration: "March 2019 - May 2020",
+      description:
+        "Built dynamic websites and gained experience in modern web development practices.",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+      achievements: [
+        "Built 10+ websites from scratch",
+        "Learned modern development practices",
+        "Contributed to open source projects",
+      ],
+    },
+    {
+      id: 4,
+      title: "Junior Engineer",
+      company: "AcePlus Solutions Company Limited",
+      location: "Yangon Myanmar",
+      duration: "March 2018 - Feb 2019",
       description:
         "Built dynamic websites and gained experience in modern web development practices.",
       technologies: ["HTML", "CSS", "JavaScript", "PHP"],
@@ -52,7 +82,7 @@ const ExperienceCard = () => {
   ];
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
       {experiences.map((experience) => (
         <div
           key={experience.id}
@@ -78,11 +108,11 @@ const ExperienceCard = () => {
             <Briefcase className="w-8 h-8 text-cyan-400" />
           </div>
 
-          <p className="text-gray-300 mb-4 leading-relaxed">
+          {/* <p className="text-gray-300 mb-4 leading-relaxed">
             {experience.description}
-          </p>
+          </p> */}
 
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <h4 className="text-white font-medium mb-2">Key Achievements:</h4>
             <ul className="space-y-1">
               {experience.achievements.map((achievement, index) => (
@@ -95,9 +125,9 @@ const ExperienceCard = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
 
-          <div className="flex flex-wrap gap-2">
+          {/* <div className="flex flex-wrap gap-2">
             {experience.technologies.map((tech, index) => (
               <span
                 key={index}
@@ -106,7 +136,7 @@ const ExperienceCard = () => {
                 {tech}
               </span>
             ))}
-          </div>
+          </div> */}
         </div>
       ))}
     </div>

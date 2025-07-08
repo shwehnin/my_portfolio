@@ -20,7 +20,7 @@ const AboutCard = () => {
     religion: "Buddhist",
     nationality: "Myanmar",
     experience: "5+ Years",
-    languages: ["English (Intermediate)", "Japanese N4", "Burmese (Fluently)"],
+    languages: ["English (Intermediate)", "Japanese (N4)", "Burmese (Fluently)"],
   };
 
   return (

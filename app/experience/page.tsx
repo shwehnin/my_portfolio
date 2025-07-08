@@ -42,7 +42,7 @@ const ExperiencePage = () => {
   }) => (
     <button
       onClick={() => onClick(id)}
-      className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
+      className={`px-6 py-3 rounded-lg font-medium transition-all duration-300 cursor-pointer ${
         isActive
           ? "bg-gradient-to-r from-cyan-400 to-blue-500 text-white shadow-lg transform scale-105"
           : "bg-slate-700/50 text-gray-300 hover:bg-slate-600/50 hover:text-white"

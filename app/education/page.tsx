@@ -50,9 +50,9 @@ const EducationPage = () => {
             <GraduationCap className="w-8 h-8 text-cyan-400" />
           </div>
 
-          <p className="text-gray-300 mb-4 leading-relaxed">{edu.description}</p>
+          {/* <p className="text-gray-300 mb-4 leading-relaxed">{edu.description}</p> */}
 
-          <div>
+          {/* <div>
             <h4 className="text-white font-medium mb-2">Relevant Coursework:</h4>
             <div className="flex flex-wrap gap-2">
               {edu.courses.map((course, index) => (
@@ -64,7 +64,7 @@ const EducationPage = () => {
                 </span>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>
