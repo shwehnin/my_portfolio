@@ -108,7 +108,7 @@ const Navbar = () => {
         <div className="menu-bg flex flex-col items-center justify-center h-[calc(100vh)] space-y-8">
           <a href="#home" className="mobile-nav-link" onClick={handleMobileMenuClick}>Home</a>
           <a href="#skills" className="mobile-nav-link" onClick={handleMobileMenuClick}>Skills</a>
-          <a href="#experiences" className="nav-link">Experiences</a>
+          <a href="#experiences" className="mobile-nav-link" onClick={handleMobileMenuClick}>Experiences</a>
           <a href="#projects" className="mobile-nav-link" onClick={handleMobileMenuClick}>Projects</a>
           <a href="#contact" className="mobile-nav-link" onClick={handleMobileMenuClick}>Contact</a>
         </div>

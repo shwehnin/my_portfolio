@@ -54,7 +54,7 @@ const ProjectPage = () => {
       technologies: ["Firebase", "Dart (Flutter)", "Zego Cloud"],
     },
     {
-      image: "/images/feature.jpg",
+      image: "/images/shop.png",
       title: "E-commerce Online Shop Multi-vendor App",
       description:
         "This app is a feature-rich multi-vendor e-commerce platform that enables users to browse and purchase products from multiple sellers in one place. Vendors can manage their own stores, upload products, and handle orders independently, while the admin oversees the entire marketplace. The app includes user-friendly features such as product search and filtering, real-time order tracking, secure payment integration, and push notifications.",
