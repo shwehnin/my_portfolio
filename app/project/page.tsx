@@ -17,7 +17,6 @@ const ProjectPage = () => {
     //     "A beautiful music streaming application with offline playback, playlists, and social features.",
     //   technologies: ["Flutter", "SQLite", "REST API"],
     // },
-
     {
       image: "/images/product.png",
       title: "Product Management System",
