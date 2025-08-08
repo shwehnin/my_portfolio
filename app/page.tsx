@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./components/navbar";
 import AboutPage from "./about/page";
 import SkillPage from "./skill/page";
